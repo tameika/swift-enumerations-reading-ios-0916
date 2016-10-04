@@ -9,6 +9,7 @@ func playerDidMove(_ direction: String) {
     }
 }
 
+
 playerDidMove("up")
 playerDidMove("left")
 playerDidMove("dwn")
@@ -35,6 +36,7 @@ enum Direction {
         }
     }
 }
+
 
 let direction1 = Direction.up
 let direction2: Direction = .down
